@@ -46,6 +46,7 @@ app.post('/api/notes', (req, res) => {
 
 });
 
+// this deletes noted from json
 app.delete('/api/notes/:id', (req, res) => {
     fs.readFile('./db/db.json', 'utf8', (err, data) => {
         if (err) throw err;
@@ -70,6 +71,7 @@ app.delete('/api/notes/:id', (req, res) => {
     });
 });
 
+// this is the app listening
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
 );
