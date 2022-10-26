@@ -10,7 +10,8 @@ The application can be found here! https://dry-woodland-76156.herokuapp.com/
 In order to use this application, click on the website which will direct you to the homepage. Next, click the "Get Started" button. The user then can type in a title for their note and then the content for their note. Once the note is writte, it can be saved by pressing the icon in the corner. The note will then be saved in the left side bar. User's can add another note by clicking the plus icon in the top right corner. 
 
 ## Screenshots
-
+![Preview](./public/assets/img/Screenshot%202022-10-26%20013103.png)
+![Preview](./public/assets/img/list.png)
 
 ## License
 This project is covered under the [MIT License](https://opensource.org/licenses/MIT).
